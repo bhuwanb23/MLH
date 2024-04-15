@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "quiz.css" %}">
+</head>
+
+<body>
+    <header>
+        <h1>Learner</h1>
+        <nav class="stroke">
+            <ul>
+                <li><a href="#">Models</a></li>
+                <li><a href="{% url 'material' %}">Materials</a></li>
+                <li><a href="{% url "quiz" %}">Quizs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="quiz">
+        <select>
+            <option selected value="0">Pure CSS Select</option>
+            <option value="1">No Wrapper</option>
+            <option value="2">No JS</option>
+            <option value="3">Nice!</option>
+        </select>
+        <div class="quiz-list">
+            <div class="q">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, explicabo!</p>
+                <button>Start</button>
+            </div>
+            <div class="q">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, explicabo!</p>
+                <button>Start</button>
+            </div>
+            <div class="q">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos, explicabo!</p>
+                <button>Start</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

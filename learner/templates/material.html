@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "material.css" %}">
+</head>
+
+<body>
+    <header>
+        <h1>Learner</h1>
+        <nav class="stroke">
+            <ul>
+                <li><a href="#">Models</a></li>
+                <li><a href="{% url 'material' %}">Materials</a></li>
+                <li><a href="{% url "quiz" %}">Quizs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="material">
+        <div class="option">
+            <select>
+                <option selected value="0">Pure CSS Select</option>
+                <option value="1">No Wrapper</option>
+                <option value="2">No JS</option>
+                <option value="3">Nice!</option>
+            </select>
+
+        </div>
+        <div class="material-list">
+            <div class="notes">
+                <div class="card">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, delectus?
+                    </p>
+                    <div>
+                        <button>
+                            <a href="{% url 'open_pdf' document.id %}">Open PDF</a>
+                        </button>
+                        <button>Download</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, delectus?
+                    </p>
+                    <div>
+                        <button>View</button>
+                        <button>Download</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <p>
+                        Lorem ipsum dolor sit ,jndsvhivbksdv mvbsdhcasc mvxn bhjvhmnfbvkjx  amet consectetur adipisicing elit. Quasi, delectus?
+                    </p>
+                    <div>
+                        <button>View</button>
+                        <button>Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

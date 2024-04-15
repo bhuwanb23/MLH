@@ -1,0 +1,145 @@
+html {
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    background: linear-gradient(90deg, purple, black) fixed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+
+}
+
+header {
+    position: fixed;
+    color: white;
+    width: -webkit-fill-available;
+    display: flex;
+    z-index: 3;
+    backdrop-filter: blur(20px);
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+header nav {
+    padding: 10px;
+}
+
+header nav a {
+    padding: 5px 20px;
+    margin: 5px;
+    color: #ffffff9a;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+header a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+header a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+header ul li {
+    display: table-cell;
+    position: relative;
+    padding: 15px 0;
+}
+
+header nav ul li:last-of-type a:first-of-type {
+    color: white;
+}
+
+.quiz {
+    padding: 100px 50px;
+}
+
+
+:root {
+    --arrow-bg: rgba(255, 255, 255, 0.3);
+    --arrow-icon: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg);
+    --option-bg: purple;
+    --select-bg: rgba(255, 255, 255, 0.2);
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    width: 20rem;
+    padding: 1rem 4rem 1rem 1rem;
+    background: var(--arrow-icon) no-repeat right 0.8em center/1.4em, linear-gradient(to left, var(--arrow-bg) 3em, var(--select-bg) 3em);
+    color: white;
+    border-radius: 0.25em;
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+select option {
+    color: inherit;
+    background-color: var(--option-bg);
+}
+
+.quiz-list {
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.q {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: -webkit-fill-available;
+    height: 30px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+    padding: 10px 20px;
+}
+
+.q:hover {
+    transform: scale(1.01);
+    border-color: white;
+}
+
+.q button {
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border: 0px solid;
+}
+
+.q button:hover{
+    background-color: white;
+    color: black;
+}
