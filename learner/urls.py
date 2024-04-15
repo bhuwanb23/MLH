@@ -5,7 +5,7 @@ from django.contrib import admin
 from django.urls import path
 
 # Import the view functions from learner.views
-from learner.views import home, material, quiz, open_pdf
+from learner.views import home, material, quiz
 
 # Define the URL patterns for the learner app
 urlpatterns = [
@@ -19,5 +19,5 @@ urlpatterns = [
     path('quiz/', quiz, name='quiz'),
 
     # Define the open_pdf URL pattern that maps to the open_pdf view function
-    path('open-pdf/<int:document_id>/', open_pdf, name='open_pdf'),
+    # path('open-pdf/<int:document_id>/', open_pdf, name='open_pdf'),
 ]

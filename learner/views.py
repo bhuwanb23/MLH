@@ -20,5 +20,5 @@ def quiz(request):
 
 #define a open pdf function
 
-def open_pdf(request, document_id):
-    return render(request, 'open_pdf.html', {'document': document})
+# def open_pdf(request, document_id):
+#     return render(request, 'open_pdf.html', {'document': document})
