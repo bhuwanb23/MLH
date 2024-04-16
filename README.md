@@ -1,10 +1,18 @@
-# **LEARNER**
+# **✨ Welcome to Learner ✨**
 
 ![Screenshot_15-4-2024_184341_127 0 0 1](https://github.com/bhuwanb23/MLH/assets/143519948/b16fffa5-ead1-4387-9fb4-24436fc37b1a)
 
+## **Learner**
 Step into a world of boundless knowledge with Learner, an exquisitely crafted app designed to ignite the flames of curiosity within every seeker of wisdom. Immerse yourself in captivating 3D model visualizations, where complex concepts come to life in stunning detail. Explore an extensive library of meticulously curated materials and notes, meticulously crafted to guide you on your journey of discovery. Engage your intellect with thought-provoking quizzes, each question a stepping stone toward enlightenment. With Learner, embark on a transformative odyssey of learning, where every interaction is a brushstroke on the canvas of enlightenment.
 
 ![Screenshot_15-4-2024_184715_127 0 0 1](https://github.com/bhuwanb23/MLH/assets/143519948/185884ef-4a00-4241-9e03-859a75c4b431)
+
+## **TECH STACK :**
+
+- **Frontend** : HTML, CSS and Javascript
+- **Backend** : Django and SQLite3
+- **Version Control** : Git and GitHub
+- **Code Editor and tools** : VS Code
 
 ## The Major Features of Learner
 
