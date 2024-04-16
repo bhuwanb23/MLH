@@ -1,4 +1,4 @@
-# **✨ Welcome to Learner ✨**
+# <h1 align="center">**✨ Welcome to Learner ✨**</h1>
 
 ![Screenshot_15-4-2024_184341_127 0 0 1](https://github.com/bhuwanb23/MLH/assets/143519948/b16fffa5-ead1-4387-9fb4-24436fc37b1a)
 
